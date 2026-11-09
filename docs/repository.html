@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Repository</title>
+  <link rel="stylesheet" href="repository.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" >
+</head> 
+
+<body class="body">
+
+    <a href="index.html" class="back-link">
+        <img src="back.png" class="image" alt="back">
+    </a>
+    <h2 class = "logo" >V<span>D</span>Network</h2>
+         <form action="login.html" method="get">
+     <button class="login-btn" type="submit">
+             Log out
+     </button>
+  <div class="page">
+
+    <!-- LEFT SECTION -->
+    <section class="left">
+      <h1 class="title">
+        RE<span>POSITORY</span>
+      </h1>
+      <p class="subtitle"> In this section you are able to upload documents to the database
+        <br><br>Press the cloud icon to open files and choose the document of your choice for Kowledge Champion To rewiew </p></section>
+
+    <!-- RIGHT SECTION -->
+    <section class="right">
+      <div class="wrapper">
+        <div class="box">
+         <div class="input-box">
+            <h2 class="upload-area-title"> Upload File</h2>
+            <form action="">
+              <input type="file" id="upload" accept=".dox,docx,pdf"hidden>
+              <label for="upload" class="uploadlabel">
+            <span><i class="fa fa-cloud-upload"></i></span> 
+            <p>Click To Upload</p>
+            </label>
+          </form>
+         </div>
+        
+         <div id="filewrapper">
+          <h3 class ="uploaded">Uploaded Documents</h3>
+           <div class="showfilebox">
+          <div class="left">
+           <span class="filetype">PDF</span>
+            <h3>Document</h3>
+          </div>
+          <div class="=right">
+              <span>&#215;</span> 
+          </div>
+       </div> 
+    </div>
+
+  <script src="scripts.js"></script>
+  </body>
+</html>

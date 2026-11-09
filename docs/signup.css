@@ -1,0 +1,149 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.body {
+  height: 100vh;
+  background: radial-gradient( circle at top,
+    #2b2b2b 0%,
+    #0a0a0a 40%,
+    #000000 100% );
+  overflow: hidden;
+}
+
+.logo {
+    color: #d7d7dbea;
+    font-size: 34px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-left: 7%;
+    padding-top: 0.5%;
+}
+
+span{
+    color:  #817b7b;
+}
+
+.login-card {
+  background:  radial-gradient( circle at top,
+    #2b2b2b 0%,
+    #0a0a0a 40%,
+    #000000 100% );
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 
+    0 10px 25px rgba(0,0,0,0.4),
+    0 0 0 1px rgba(255,255,255,0.08) inset;
+  color: #e0e0ff;
+  place-items: center;
+}
+
+.login{
+    padding-left: 40%;
+    padding-top: 9%;
+}
+
+.signup{
+  color: #888;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #adadb9;
+  font-size: 0.95rem;
+  margin-bottom: 2.2rem;
+}
+
+.form-group {
+  margin-bottom: 1.6rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.55rem;
+  font-size: 0.92rem;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 0.95rem 1.1rem;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background: #0f0f1a;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: #898a8d;
+  box-shadow: 0 0 0 3px rgba(168, 168, 177, 0.15);
+  background: #27272b;
+}
+
+.btn {
+  width: 100%;
+  padding: 1rem;
+  background: linear-gradient(90deg, #5a5a5c, #b1b1b3);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(228, 228, 228, 0.35);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.image{
+  width: 34px;
+  height: 28px;
+  object-fit: contain;
+  position:absolute;
+  top: 12px;
+  left: 25px;
+} 
+.image:hover{
+  transform: scale(1.15);
+}
+
+.back-link{
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.back-link:hover.image {
+  opacity: 0.85%;
+  transform: scale(1.1);
+  transition: all 0.15s ease;
+}
