@@ -1,0 +1,43 @@
+
+var ftGUID_9072267="6381821FE5D885";
+var ftConfID_9072267="0";
+var ftParams_9072267="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=pngtree.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fpngtree.com%2Felement%2Fdown&gdpr=1&gdpr_consent=CQdmyUAQdmyUAEsACBENCMFoAP_gAEPgAARoK1IB_C7EbCFCiDJ3IKMEMAhHABBAYsAwAAYBAwAADBIQIAQCgkEYBASAFCACCAAAKASBAAAgCAAAAUAAIAAFAABAAAwAIBAIIAAAgAAAAEAIAAAACIAAEQCAAAAEAEAAkAgAAAIASAAAAAAAAACBAAAAAAAAAAAAAAAABAAAAQAAQAAAAAAAiAAAAAAAABAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAAAQR2QD-F2I2EKFEGCuQUYIYBCuACAAxYBgAAwCBgAAGCQgQAgFJIIkCAEAIEAAEAAAQAgCAABQEBAAAIAAAAAqAACAABgAQCAQAIABAAAAgIAAAAAAEQAAIgEAAAAIAIABABAAAAQAkAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAEABgAAAAAABEAAAAAAAACAQIAAA&us_privacy=${US_PRIVACY}&ft_partnerimpid=ABAjH0g6W9SphaH6GN9csLGjzN11&bundle_id=&site_url=https://pngtree.com/element/down&pub_id=1&sup_platform=1&cachebuster=329537.8980250245";
+var ftKeyword_9072267="";
+var ftCustom_9072267="";
+var ftSection_9072267="";
+var ftSegment_9072267="ae5o";
+var ftSegmentList_9072267=[{m:'BOOTS_1279',s:'ae5o',t:65110000}];
+var ftRuleMatch_9072267="0";
+var ftTimestamp_9072267="1767706445";
+var ftGeoC2_9072267="uk";
+var ftGeoState_9072267="mrt";
+var ftGeoCity_9072267="morden";
+var ftISP_9072267="telefonica uk limited";
+var ftSpeed_9072267="mobile";
+var ftConnType_9072267="mobile";
+var ftDMA_9072267="826044";
+var ftLong_9072267="-0.19";
+var ftLat_9072267="51.4";
+var ftPostal_9072267="sm4 5js";
+var ftTimeZone_9072267="+0";
+var ftMobileCarrier_9072267="o2 uk";
+var ftImp9072267 = {};
+ftImp9072267.privacy = "y";
+ftImp9072267.guidAge = "199";
+ftImp9072267.impID = "74331C90-B396-8221-B996-F416C42703A6";
+ftImp9072267.duid = "FT:6381821FE5D885";
+
+ftImp9072267.ft_tpplid = "";
+ftImp9072267.ft_c = {};
+ftImp9072267.gdpr = "1";
+ftImp9072267.gdpr_consent = "CQdmyUAQdmyUAEsACBENCMFoAP_gAEPgAARoK1IB_C7EbCFCiDJ3IKMEMAhHABBAYsAwAAYBAwAADBIQIAQCgkEYBASAFCACCAAAKASBAAAgCAAAAUAAIAAFAABAAAwAIBAIIAAAgAAAAEAIAAAACIAAEQCAAAAEAEAAkAgAAAIASAAAAAAAAACBAAAAAAAAAAAAAAAABAAAAQAAQAAAAAAAiAAAAAAAABAIAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAAAQR2QD-F2I2EKFEGCuQUYIYBCuACAAxYBgAAwCBgAAGCQgQAgFJIIkCAEAIEAAEAAAQAgCAABQEBAAAIAAAAAqAACAABgAQCAQAIABAAAAgIAAAAAAEQAAIgEAAAAIAIABABAAAAQAkAAAAAAAAAECAAAAAAAAAAAAAAAAAAAAAEABgAAAAAABEAAAAAAAACAQIAAA";
+ftImp9072267.gdpr_pd = "";
+ftImp9072267.oob_consent = "";
+ftImp9072267.gdprStoredConsent = "";
+ftImp9072267.us_privacy = "!!US_PRIVACY!";
+ftImp9072267.gpc = "";
+
+var ftCreativeId_9072267 = "5394275";
+document.write('<scr'+'ipt src="https://ajs-assets.ftstatic.com/ftUtils.js" id="ftscript_m9072267" name="ftscript_m9072267"></scr'+'ipt>');window.fTChecker=window.fTChecker||function(id){if(!id)return false;id=""+id;if(window.hasOwnProperty("ftUtils")){window["ft"+id]=Object.assign({},window.ftUtils.common);window["ft"+id].getBannerConfig(id)}else(function(id){window.setTimeout(function(){window.fTChecker(id)},50)})(id)};window.fTChecker("9072267");
+
+

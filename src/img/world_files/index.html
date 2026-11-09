@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- saved from url=(0134)https://s0.2mdn.net/sadbundle/17374151082271884600/index.html?e=69&leftOffset=0&topOffset=0&c=PzVfAIg51C&t=1&renderingType=2&ev=01_262 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="ad.size" content="width=728,height=90">
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="./Enabler_01_253.js.download"></script>
+    <meta http-equiv="origin-trial" content="A4AD7vbM2W0e5fHylDM4fFrsUvtmQ95U+ZVrdOdh3fgH0l0e7RVkAsZryrSQIRhPVvmC60wTlh880eDyo+HpXQAAAABueyJvcmlnaW4iOiJodHRwczovL3MwLjJtZG4ubmV0OjQ0MyIsImZlYXR1cmUiOiJQcml2YWN5U2FuZGJveEFkc0FQSXMiLCJleHBpcnkiOjE2OTUxNjc5OTksImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="></head>
+    <body>
+        <div id="container" style="width:728px; height:90px;">
+
+          <img class="element" id="bg1" src="./bg1.jpg">
+          <div id="bg2" class="element hide" style="visibility: inherit; opacity: 1;">
+              <img class="element" id="bg2image" src="./bg2.jpg" style="-webkit-mask-image: linear-gradient(to left, black 0%, black 99%, transparent 109%)">
+          </div>
+          <img class="element hide" id="bg3" src="./bg3.jpg" style="visibility: inherit; opacity: 1;">
+
+          <div id="dynamicContentMove" class="element">
+            <div id="text1" class="headline hide" style="visibility: hidden; opacity: 0;">20% Off Fusion for Manufacturing</div>
+            <div id="text2" class="headline hide" style="visibility: inherit; opacity: 1;">Unify design, CNC programming, and 5-axis machining on one manufacturing solution—now 20% off.</div>
+
+            <div id="cta" class="hide" style="visibility: inherit; opacity: 1; background-color: rgba(255, 255, 255, 0);">
+                <div id="ctaText" style="color: rgb(255, 255, 255);">Buy Now</div>
+            </div>
+          </div>
+
+          <img class="element" id="logo" src="./logo.png">
+          <div class="element" id="border"></div>
+        </div>
+
+        <script src="./tweenmax_1.19.1_92cf05aba6ca4ea5cbc62b5a7cb924e3_min.js.download"></script>
+        <script src="./main.js.download" type="text/javascript"></script>
+        <script type="text/javascript" charset="utf-8">
+            if (Enabler.isInitialized()) {
+                init();
+            } else {
+                Enabler.addEventListener(
+                    studio.events.StudioEvent.INIT,
+                    init
+                );
+            }
+            function init() {
+
+              Enabler.setProfileId(10917450);
+              var devDynamicContent = {};
+
+              devDynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA = [{}];
+              devDynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA[0]._id = 0;
+              devDynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA[0].text1_portrait = "CAD, CAM, CAE, and PCB in one tool.";
+              devDynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA[0].text1_landscape = "CAD, CAM, CAE, and PCB in one tool.";
+              devDynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA[0].text2_portrait = "Your best work with Fusion.";
+              devDynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA[0].text2_landscape = "Your best work with Fusion.";
+              devDynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA[0].cta_text = "Try now";
+              devDynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA[0].click_url = {};
+              devDynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA[0].click_url.Url = "https://www.autodesk.com/uk/products/fusion-360/overview?mktvar002=5022467%7CDSP%7C%ebuy!%7C%epid!%7C%ecid!&utm_source=DV360&utm_medium=Display&utm_campaign=FY25_EG_D-M_EMEA_GB_Fusion 360&utm_id=5022467&utm_term=DV360_D-M_Fusion-360_AMER_GB_eComm_PR_CPM_NA_XX_XX_0064_5022467_Prospecting-XX-XX-XXXXXX-Evergreen-DYN-XX";
+              Enabler.setDevDynamicContent(devDynamicContent);
+
+              var copyText    = dynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA[0].text1_portrait;
+              var copyText2    = dynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA[0].text2_portrait;
+              var ctaText     = dynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA[0].cta_text;
+              var clickUrl    = dynamicContent.Fusion360prospectingretargetingdynamic2022_EMEA[0].click_url.Url;
+
+              document.getElementById('text1').innerHTML = copyText;
+              document.getElementById('text2').innerHTML = copyText2;
+              document.getElementById('ctaText').innerHTML = ctaText;
+              document.getElementById('container').addEventListener('click', exitClickHandler);
+
+              function exitClickHandler() {
+                  Enabler.exitOverride('Background Exit', clickUrl);
+              }
+              initBanner();
+
+                // HERE STARTS THE TEXT LOGIC
+
+                // TEXT LOGIC TEXT 1
+                var inputTextOneScrollWidth = document.getElementById('text1').scrollWidth;
+                var inputTextOneFixedWidth = document.getElementById('text1').offsetWidth;
+                console.log('ScrollWidth:' + inputTextOneScrollWidth);
+                console.log('textWidth:' + inputTextOneFixedWidth);
+
+                var inputTextOneHeight = document.getElementById('text1').offsetHeight;
+                console.log('textHeight:' + inputTextOneHeight);
+                var originalHeight = 66;
+                console.log('ogHeight:' + originalHeight);
+
+                var newHeight = (originalHeight - inputTextOneHeight)/1.5;
+                console.log('new height: '+newHeight)
+
+                // if( inputTextOneHeight < originalHeight ) {
+                //   document.getElementById('dynamicContentMove').style.top = '-' + newHeight + 'px';
+                // }
+
+                var inputTextOne               = document.getElementById('text1').innerText;
+                var inputTextOneLength         = inputTextOne.length;
+                console.log(inputTextOneLength);
+
+                var inputTextOneFontSize       = window.getComputedStyle(document.getElementById('text1')).fontSize.replace('px','');
+                var inputTextOneLineHeight       = window.getComputedStyle(document.getElementById('text1')).lineHeight.replace('px','');
+
+                if(inputTextOneScrollWidth > inputTextOneFixedWidth) {
+                  document.getElementById('text1').style.fontSize = (inputTextOneFontSize*0.65)+'px';
+                  document.getElementById('text1').style.lineHeight = (inputTextOneLineHeight*0.7)+'px';
+                }
+
+                if(inputTextOneLength > 92) {
+                    document.getElementById('text1').style.fontSize = (inputTextOneFontSize*0.8)+'px';
+                    document.getElementById('text1').style.lineHeight = (inputTextOneLineHeight*0.8)+'px';
+                }
+                if(inputTextOneLength > 147) {
+                    document.getElementById('text1').style.fontSize = (inputTextOneFontSize*0.65)+'px';
+                    document.getElementById('text1').style.lineHeight = (inputTextOneLineHeight*0.65)+'px';
+                }
+                // if(inputTextOneLength > 115) {
+                //     document.getElementById('text1').style.fontSize = (inputTextOneFontSize*0.5)+'px';
+                //     document.getElementById('text1').style.lineHeight = (inputTextOneLineHeight*0.5)+'px';
+                // }
+
+                // TEXT LOGIC TEXT 2
+
+                var inputTextTwo               = document.getElementById('text2').innerText;
+                var inputTextTwoLength         = inputTextTwo.length;
+                console.log(inputTextTwoLength);
+
+                var inputTextTwoFontSize       = window.getComputedStyle(document.getElementById('text2')).fontSize.replace('px','');
+                var inputTextTwoLineHeight       = window.getComputedStyle(document.getElementById('text2')).lineHeight.replace('px','');
+
+                if(inputTextTwoLength > 100) {
+                    document.getElementById('text2').style.fontSize = (inputTextTwoFontSize*0.8)+'px';
+                    document.getElementById('text2').style.lineHeight = (inputTextTwoLineHeight*0.8)+'px';
+                }
+                // if(inputTextTwoLength > 106) {
+                //     document.getElementById('text2').style.fontSize = (inputTextTwoFontSize*0.7)+'px';
+                //     document.getElementById('text2').style.lineHeight = (inputTextTwoLineHeight*0.7)+'px';
+                // }
+                // if(inputTextTwoLength > 92) {
+                //     document.getElementById('text2').style.fontSize = (inputTextTwoFontSize*0.5)+'px';
+                //     document.getElementById('text2').style.lineHeight = (inputTextTwoLineHeight*0.5)+'px';
+                // }
+
+                // CTA LOGIC
+
+                var inputCtaOne               = document.getElementById('ctaText').innerHTML;
+                var inputCtaOneLength         = inputCtaOne.length;
+                console.log(inputCtaOneLength);
+
+                var inputCtaOneFontSize       = window.getComputedStyle(document.getElementById('ctaText')).fontSize.replace('px','');
+
+                if(inputCtaOneLength === 0) {
+                    document.getElementById('cta').style.display = 'none';
+                    // document.getElementById('arrow').style.fontSize = (inputCtaOneFontSize*0.8)+'px';
+                }
+
+                if(inputCtaOneLength > 14) {
+                    document.getElementById('ctaText').style.fontSize = (inputCtaOneFontSize*0.7)+'px';
+                    // document.getElementById('arrow').style.fontSize = (inputCtaOneFontSize*0.8)+'px';
+                }
+                if(inputCtaOneLength > 21) {
+                    document.getElementById('ctaText').style.fontSize = (inputCtaOneFontSize*0.6)+'px';
+                    // document.getElementById('arrow').style.fontSize = (inputCtaOneFontSize*0.6)+'px';
+                }
+                // if(inputCtaOneLength > 35) {
+                //     document.getElementById('ctaText').style.fontSize = (inputCtaOneFontSize*0.6)+'px';
+                //     document.getElementById('arrow').style.display = 'none';
+                //     document.getElementById('ctaText').style.padding = '5px 10px 5px 10px';
+                //     document.getElementById('ctaText').style.textAlign = 'center';
+                //     document.getElementById('ctaText').style.width = '245px';
+                //     document.getElementById('ctaText').style.lineHeight = '14px';
+                // }
+
+                // END TESTING VARIABLES
+            }
+        </script>
+    
+
+<iframe style="display: none;" src="./saved_resource.html"></iframe></body></html>

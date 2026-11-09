@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+    color: #d7d7dbea;
+    font-size: 34px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding-right: 80%;
+    padding-top: 0.5%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: radial-gradient( circle at top,
+    #2b2b2b 0%,
+    #0a0a0a 40%,
+    #000000 100% );
+  overflow: hidden;
+  color: #e0e0e5;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+
+
+
+button{
+    background-color: #8f8c86;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-left: 1500px;
+    position: relative;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.container {
+  max-width: 580px;
+  width: 100%;
+  background:radial-gradient( circle at top,
+    #787779 0%,
+    #0a0a0a 40%,
+    #000000 100% );
+  overflow: hidden;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #222228;
+  box-shadow: 0 25px 60px -15px rgba(0,0,0,0.7);
+}
+
+span{
+    color:  #c7c7c7d8;
+}
+
+.login{
+    padding-left: 40%;
+    padding-top: 9%;
+}
+
+
+.content {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  color: #fdf7eb;
+  font-size: 2.1rem;
+  letter-spacing: -1px;
+  margin-bottom: 8px;
+  background: #cac5ba;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.emoji-circle {
+  width: 110px;
+  height: 110px;
+  margin: 32px auto 40px;
+  background: rgba(0, 212, 255, 0.08);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 4.8rem;
+  border: 1px solid rgba(0, 212, 255, 0.15);
+  backdrop-filter: blur(8px);
+}
+
+.welcome-box {
+  background:  #333131;
+  border-radius: 12px;
+  padding: 32px 28px;
+  border: 1px solid #25252b;
+  margin: 0 auto;
+  max-width: 480px;
+}
+
+.welcome-box h2 {
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: #fdfdfde0;;
+}
+
+.welcome-box p {
+  line-height: 1.65;
+  color: #ffffff;
+  margin-bottom: 1.3em;
+  font-size: 1.03rem;
+}
+
+.highlight {
+  color:  #e4cccce0;
+  font-weight: 500;
+}
+
+.signature {
+  margin-top: 36px;
+  font-style: italic;
+  color: #77778a;
+  font-size: 0.98rem;
+}
+
+.team {
+  color:  #e4cccce0;;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 520px) {
+  .content {
+    padding: 50px 24px;
+  }
+  h1 {
+    font-size: 2.6rem;
+  }
+  .emoji-circle {
+    width: 90px;
+    height: 90px;
+    font-size: 4rem;
+    margin: 28px auto 32px;
+  }
+}
+
+
+.image{
+  width: 34px;
+  height: 28px;
+  object-fit: contain;
+  position:absolute;
+  top: 12px;
+  left: 25px;
+} 
+.image:hover{
+  transform: scale(1.15);
+}
+
+.back-link{
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.back-link:hover.image {
+  opacity: 0.85%;
+  transform: scale(1.1);
+  transition: all 0.15s ease;
+}

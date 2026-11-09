@@ -1,0 +1,67 @@
+/*--------------------------------------------------//
+/$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$
+/$$__  $$ /$$__  $$ /$$__  $$ /$$__  $$
+| $$  \ $$| $$  \__/| $$  \__/| $$  \__/
+| $$$$$$$$| $$ /$$$$| $$      |  $$$$$$
+| $$__  $$| $$|_  $$| $$       \____  $$
+| $$  | $$| $$  \ $$| $$    $$ /$$  \ $$
+| $$  | $$|  $$$$$$/|  $$$$$$/|  $$$$$$/
+|__/  |__/ \______/  \______/  \______/
+Developed with loving code by http://www.agcs.works
+For questions and support email info@agcs.works
+//--------------------------------------------------*/
+
+function initBanner() {
+
+    var tl = new TimelineMax({
+        delay:0,
+        onComplete:addCtaListeners
+    })
+
+    tl
+
+    .staggerTo([text1,cta],1,{autoAlpha:1, ease: Expo.easeOut},0.5,'start')
+
+    // .staggerTo([bg2,bg3],1,{autoAlpha:1},1,'start+=1.5')
+    .add(bgFade,'start+=1.5')
+    .to(bg2,0.2,{autoAlpha:1},'start+=1.6')
+    .to(bg3,1,{autoAlpha:1},'start+=3')
+
+    .to(text1,1,{autoAlpha:0},'start+=2.5')
+    .to(text2,1,{autoAlpha:1},'start+=3')
+
+    console.log(tl.duration())
+
+}
+
+function bgFade() {
+    var counter = 0;
+    var myLoop = setInterval(function(){
+
+      if (CSS.supports("( -webkit-box-reflect:unset )")){
+            document.getElementById('bg2image').setAttribute('style','-webkit-mask-image: linear-gradient(to left, black 0%, black '+counter+'%, transparent '+(counter+10)+'%)');
+        } else {
+            document.getElementById('bg2image').setAttribute('style','mask-image: linear-gradient(to left, black 0%, black '+counter+'%, transparent '+(counter+10)+'%)');
+        }
+
+      counter++;
+      if(counter == 100) {
+        clearInterval(myLoop);
+      }
+        console.log(counter)
+    }, 20);
+}
+
+function addCtaListeners() {
+    container.addEventListener('mouseover', on_cta_over);
+    container.addEventListener('mouseout', on_cta_out);
+}
+
+function on_cta_over() {
+  TweenMax.to(cta, 0.25, {backgroundColor:"#ffffff"});
+    TweenMax.to(ctaText, 0.25, {color:"#000000"});
+}
+function on_cta_out() {
+    TweenMax.to(cta, 0.25, {backgroundColor:"transparent"});
+    TweenMax.to(ctaText, 0.25, {color:"#ffffff"});
+}
